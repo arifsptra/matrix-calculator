@@ -1,0 +1,36 @@
+/* Style for navbar */
+@import url("navbar.css");
+
+/* Style for main */
+@import url("main.css");
+
+/* Style for footer */
+@import url("footer.css");
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  padding: 0px;
+  margin: 0px;
+}
+html {
+  font-size: 10px;
+}
+body {
+  font-family: "Poppins", sans-serif;
+}
+::-webkit-scrollbar {
+  right: 10px;
+  width: 8px;
+}
+/* Track */
+::-webkit-scrollbar-track {
+  background: none;
+}
+/* Handle */
+::-webkit-scrollbar-thumb {
+  border-radius: 6px;
+  width: 6px;
+  background: #ccc;
+}
